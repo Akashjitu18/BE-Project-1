@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules
+jspm_packages
+
+# Build outputs
+dist
+build
+coverage
+.nyc_output
+
+# Temporary/runtime data
+tmp
+temp
+logs
+*.log
+
+# Generated or user uploads
+uploads
+public/uploads
+storage
+
+# Editor & tooling configs
+.vscode
+
+# Environment files
+.env
+.env.*
+*.env
