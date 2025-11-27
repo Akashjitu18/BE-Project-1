@@ -2,7 +2,7 @@
 
 A practice backend project inspired by YouTube, built to learn Node.js, Express, MongoDB, and Mongoose.
 
-<a href="https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj" target="_blank">Reference Model Link</a>
+[Reference Model Link](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
 
 ## Tech Stack
 - Node.js
