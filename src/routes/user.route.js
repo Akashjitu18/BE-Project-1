@@ -8,6 +8,7 @@ import {
   getCurrentUser,
   updateProfileDetails,
   getUserChannelProfile,
+  getWatchHistory,
 } from "../controllers/user.controller.js";
 import { upload } from "../middlewares/multer.middleware.js";
 import { verifyJWT } from "../middlewares/auth.middleware.js";
@@ -42,6 +43,9 @@ router.route("/me").patch(
   updateProfileDetails
 );
 
-router.route("/:username").get(verifyJWT, getUserChannelProfile);
+router.route("/channel/:username").get(verifyJWT, getUserChannelProfile);
+
+router.route("/watch-history").get(verifyJWT, getWatchHistory);
+
 
 export default router;
